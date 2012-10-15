@@ -1,5 +1,5 @@
 from Tkinter import *
-root = Tk()
-w = Label(root, text="Hello, World!")
+root = Tk()                 #Create tk root component
+w = Label(root, text="Hello, World!") #Create label component
 w.pack()
-root.mainloop()
+root.mainloop()             #TK event loop
